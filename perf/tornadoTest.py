@@ -4,7 +4,7 @@
 
 from tornado.httpserver import HTTPServer
 from tornado.ioloop import IOLoop
-from tornado.web import RequestHandler, Application, authenticated
+from tornado.web import RequestHandler, Application
 
 #from rockps.auth import AuthHandler
 
