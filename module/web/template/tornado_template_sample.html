@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>template function test</title>
+</head>
+<body>
+<ul>
+{% for item in items %}
+    <li>{{ escape(item) }}</li>
+{% end %}
+
+{{ add(2,2) }}
+</ul>
+</body>
+</html>
